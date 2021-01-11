@@ -50,7 +50,7 @@ function Orders() {
             toast.info('PLATAFORMA DE TESTE!');
           }, 2000);
           setTimeout(() => {
-            toast.info('Nehum pedido será entregue, plataforma com fins educativos...');
+            toast.info('Nenhum pedido será entregue, plataforma com fins educativos...');
           }, 4000);
           setSelectedProducts([]);
         })
