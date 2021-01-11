@@ -46,6 +46,12 @@ function Orders() {
       
         saveOrder(payload).then((response) => {
           toast.error('Pedido enviado com sucesso! Nº ' + response.data.id);
+          setTimeout(() => {
+            toast.info('PLATAFORMA DE TESTE!');
+          }, 2000);
+          setTimeout(() => {
+            toast.info('Nehum pedido será entregue, plataforma com fins educativos...');
+          }, 4000);
           setSelectedProducts([]);
         })
           .catch(() => {
