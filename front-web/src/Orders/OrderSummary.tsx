@@ -1,5 +1,3 @@
-import { type } from 'os';
-import React from 'react';
 import { formatPrice } from './helpers';
 
 type Props = {
