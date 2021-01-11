@@ -3,7 +3,6 @@ import { OrderPayload } from "./Orders/types";
 
 const API_URL = process.env.REACT_APP_API_URL;
 const mapboxToken = process.env.REACT_APP_ACCESS_TOKEN_MAP;
-console.log(mapboxToken);
 
 
 export function fetchProducts() {
